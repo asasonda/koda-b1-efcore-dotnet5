@@ -1,5 +1,6 @@
 namespace KodaStore.Api.DTOs;
 
+
 public record ProductToCategoryResponse(
     string ProductCode, string Name, decimal Price, int Stock
 );

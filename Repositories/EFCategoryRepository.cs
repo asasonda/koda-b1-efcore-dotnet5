@@ -27,4 +27,5 @@ public sealed class EFCategoryRepository : ICategoryRepository
 
         return new ProductDetailResponse(category.CategoryId, category.CategoryName, items);
     }
+
 }
